@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FD38A13237CF07D007EC177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A12237CF07D007EC177 /* AppDelegate.swift */; };
+		7FD38A15237CF07D007EC177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A14237CF07D007EC177 /* SceneDelegate.swift */; };
+		7FD38A17237CF07D007EC177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A16237CF07D007EC177 /* ViewController.swift */; };
+		7FD38A1A237CF07D007EC177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38A18237CF07D007EC177 /* Main.storyboard */; };
+		7FD38A1C237CF07F007EC177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38A1B237CF07F007EC177 /* Assets.xcassets */; };
+		7FD38A1F237CF07F007EC177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38A1D237CF07F007EC177 /* LaunchScreen.storyboard */; };
+		7FD38A2A237CF07F007EC177 /* UFOGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A29237CF07F007EC177 /* UFOGameTests.swift */; };
+		7FD38A35237CF07F007EC177 /* UFOGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A34237CF07F007EC177 /* UFOGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FD38A26237CF07F007EC177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FD38A07237CF07D007EC177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FD38A0E237CF07D007EC177;
+			remoteInfo = UFOGame;
+		};
+		7FD38A31237CF07F007EC177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FD38A07237CF07D007EC177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FD38A0E237CF07D007EC177;
+			remoteInfo = UFOGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FD38A0F237CF07D007EC177 /* UFOGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFOGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD38A12237CF07D007EC177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FD38A14237CF07D007EC177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FD38A16237CF07D007EC177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FD38A19237CF07D007EC177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD38A1B237CF07F007EC177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD38A1E237CF07F007EC177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FD38A20237CF07F007EC177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD38A25237CF07F007EC177 /* UFOGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UFOGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD38A29237CF07F007EC177 /* UFOGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOGameTests.swift; sourceTree = "<group>"; };
+		7FD38A2B237CF07F007EC177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD38A30237CF07F007EC177 /* UFOGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UFOGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD38A34237CF07F007EC177 /* UFOGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOGameUITests.swift; sourceTree = "<group>"; };
+		7FD38A36237CF07F007EC177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD38A0C237CF07D007EC177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A22237CF07F007EC177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A2D237CF07F007EC177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD38A06237CF07D007EC177 = {
+			isa = PBXGroup;
+			children = (
+				7FD38A11237CF07D007EC177 /* UFOGame */,
+				7FD38A28237CF07F007EC177 /* UFOGameTests */,
+				7FD38A33237CF07F007EC177 /* UFOGameUITests */,
+				7FD38A10237CF07D007EC177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD38A10237CF07D007EC177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38A0F237CF07D007EC177 /* UFOGame.app */,
+				7FD38A25237CF07F007EC177 /* UFOGameTests.xctest */,
+				7FD38A30237CF07F007EC177 /* UFOGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD38A11237CF07D007EC177 /* UFOGame */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38A12237CF07D007EC177 /* AppDelegate.swift */,
+				7FD38A14237CF07D007EC177 /* SceneDelegate.swift */,
+				7FD38A16237CF07D007EC177 /* ViewController.swift */,
+				7FD38A18237CF07D007EC177 /* Main.storyboard */,
+				7FD38A1B237CF07F007EC177 /* Assets.xcassets */,
+				7FD38A1D237CF07F007EC177 /* LaunchScreen.storyboard */,
+				7FD38A20237CF07F007EC177 /* Info.plist */,
+			);
+			path = UFOGame;
+			sourceTree = "<group>";
+		};
+		7FD38A28237CF07F007EC177 /* UFOGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38A29237CF07F007EC177 /* UFOGameTests.swift */,
+				7FD38A2B237CF07F007EC177 /* Info.plist */,
+			);
+			path = UFOGameTests;
+			sourceTree = "<group>";
+		};
+		7FD38A33237CF07F007EC177 /* UFOGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38A34237CF07F007EC177 /* UFOGameUITests.swift */,
+				7FD38A36237CF07F007EC177 /* Info.plist */,
+			);
+			path = UFOGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD38A0E237CF07D007EC177 /* UFOGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD38A39237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGame" */;
+			buildPhases = (
+				7FD38A0B237CF07D007EC177 /* Sources */,
+				7FD38A0C237CF07D007EC177 /* Frameworks */,
+				7FD38A0D237CF07D007EC177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFOGame;
+			productName = UFOGame;
+			productReference = 7FD38A0F237CF07D007EC177 /* UFOGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FD38A24237CF07F007EC177 /* UFOGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD38A3C237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGameTests" */;
+			buildPhases = (
+				7FD38A21237CF07F007EC177 /* Sources */,
+				7FD38A22237CF07F007EC177 /* Frameworks */,
+				7FD38A23237CF07F007EC177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD38A27237CF07F007EC177 /* PBXTargetDependency */,
+			);
+			name = UFOGameTests;
+			productName = UFOGameTests;
+			productReference = 7FD38A25237CF07F007EC177 /* UFOGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FD38A2F237CF07F007EC177 /* UFOGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD38A3F237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGameUITests" */;
+			buildPhases = (
+				7FD38A2C237CF07F007EC177 /* Sources */,
+				7FD38A2D237CF07F007EC177 /* Frameworks */,
+				7FD38A2E237CF07F007EC177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD38A32237CF07F007EC177 /* PBXTargetDependency */,
+			);
+			name = UFOGameUITests;
+			productName = UFOGameUITests;
+			productReference = 7FD38A30237CF07F007EC177 /* UFOGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD38A07237CF07D007EC177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = cmStudent;
+				TargetAttributes = {
+					7FD38A0E237CF07D007EC177 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					7FD38A24237CF07F007EC177 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7FD38A0E237CF07D007EC177;
+					};
+					7FD38A2F237CF07F007EC177 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7FD38A0E237CF07D007EC177;
+					};
+				};
+			};
+			buildConfigurationList = 7FD38A0A237CF07D007EC177 /* Build configuration list for PBXProject "UFOGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FD38A06237CF07D007EC177;
+			productRefGroup = 7FD38A10237CF07D007EC177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD38A0E237CF07D007EC177 /* UFOGame */,
+				7FD38A24237CF07F007EC177 /* UFOGameTests */,
+				7FD38A2F237CF07F007EC177 /* UFOGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD38A0D237CF07D007EC177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38A1F237CF07F007EC177 /* LaunchScreen.storyboard in Resources */,
+				7FD38A1C237CF07F007EC177 /* Assets.xcassets in Resources */,
+				7FD38A1A237CF07D007EC177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A23237CF07F007EC177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A2E237CF07F007EC177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD38A0B237CF07D007EC177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38A17237CF07D007EC177 /* ViewController.swift in Sources */,
+				7FD38A13237CF07D007EC177 /* AppDelegate.swift in Sources */,
+				7FD38A15237CF07D007EC177 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A21237CF07F007EC177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38A2A237CF07F007EC177 /* UFOGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD38A2C237CF07F007EC177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38A35237CF07F007EC177 /* UFOGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FD38A27237CF07F007EC177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FD38A0E237CF07D007EC177 /* UFOGame */;
+			targetProxy = 7FD38A26237CF07F007EC177 /* PBXContainerItemProxy */;
+		};
+		7FD38A32237CF07F007EC177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FD38A0E237CF07D007EC177 /* UFOGame */;
+			targetProxy = 7FD38A31237CF07F007EC177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FD38A18237CF07D007EC177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD38A19237CF07D007EC177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD38A1D237CF07F007EC177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD38A1E237CF07F007EC177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD38A37237CF07F007EC177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FD38A38237CF07F007EC177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD38A3A237CF07F007EC177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FD38A3B237CF07F007EC177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FD38A3D237CF07F007EC177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFOGame.app/UFOGame";
+			};
+			name = Debug;
+		};
+		7FD38A3E237CF07F007EC177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFOGame.app/UFOGame";
+			};
+			name = Release;
+		};
+		7FD38A40237CF07F007EC177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UFOGame;
+			};
+			name = Debug;
+		};
+		7FD38A41237CF07F007EC177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYAVWT67J5;
+				INFOPLIST_FILE = UFOGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nenriki-inc.UFOGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UFOGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD38A0A237CF07D007EC177 /* Build configuration list for PBXProject "UFOGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38A37237CF07F007EC177 /* Debug */,
+				7FD38A38237CF07F007EC177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD38A39237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38A3A237CF07F007EC177 /* Debug */,
+				7FD38A3B237CF07F007EC177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD38A3C237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38A3D237CF07F007EC177 /* Debug */,
+				7FD38A3E237CF07F007EC177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD38A3F237CF07F007EC177 /* Build configuration list for PBXNativeTarget "UFOGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38A40237CF07F007EC177 /* Debug */,
+				7FD38A41237CF07F007EC177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD38A07237CF07D007EC177 /* Project object */;
+}
