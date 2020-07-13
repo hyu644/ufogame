@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F7FF29A23A202FB0092FB49 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7FF29923A202FB0092FB49 /* SecondViewController.swift */; };
+		7FD1E1082386166200531F75 /* small_explosion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD1E1072386166100531F75 /* small_explosion1.mp3 */; };
 		7FD38A13237CF07D007EC177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A12237CF07D007EC177 /* AppDelegate.swift */; };
 		7FD38A15237CF07D007EC177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A14237CF07D007EC177 /* SceneDelegate.swift */; };
 		7FD38A17237CF07D007EC177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A16237CF07D007EC177 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		7FD38A1F237CF07F007EC177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38A1D237CF07F007EC177 /* LaunchScreen.storyboard */; };
 		7FD38A2A237CF07F007EC177 /* UFOGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A29237CF07F007EC177 /* UFOGameTests.swift */; };
 		7FD38A35237CF07F007EC177 /* UFOGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38A34237CF07F007EC177 /* UFOGameUITests.swift */; };
+		7FD38A43237D1D21007EC177 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38A42237D1D20007EC177 /* BGM.mp3 */; };
+		7FD38A46237D1DA7007EC177 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD38A45237D1DA7007EC177 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F7FF29923A202FB0092FB49 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7FD1E1072386166100531F75 /* small_explosion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = small_explosion1.mp3; sourceTree = "<group>"; };
 		7FD38A0F237CF07D007EC177 /* UFOGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFOGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD38A12237CF07D007EC177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD38A14237CF07D007EC177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		7FD38A30237CF07F007EC177 /* UFOGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UFOGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD38A34237CF07F007EC177 /* UFOGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOGameUITests.swift; sourceTree = "<group>"; };
 		7FD38A36237CF07F007EC177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD38A42237D1D20007EC177 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		7FD38A45237D1DA7007EC177 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD38A46237D1DA7007EC177 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 				7FD38A28237CF07F007EC177 /* UFOGameTests */,
 				7FD38A33237CF07F007EC177 /* UFOGameUITests */,
 				7FD38A10237CF07D007EC177 /* Products */,
+				7FD38A44237D1DA6007EC177 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +112,10 @@
 				7FD38A12237CF07D007EC177 /* AppDelegate.swift */,
 				7FD38A14237CF07D007EC177 /* SceneDelegate.swift */,
 				7FD38A16237CF07D007EC177 /* ViewController.swift */,
+				7FD38A42237D1D20007EC177 /* BGM.mp3 */,
+				7FD1E1072386166100531F75 /* small_explosion1.mp3 */,
 				7FD38A18237CF07D007EC177 /* Main.storyboard */,
+				7F7FF29923A202FB0092FB49 /* SecondViewController.swift */,
 				7FD38A1B237CF07F007EC177 /* Assets.xcassets */,
 				7FD38A1D237CF07F007EC177 /* LaunchScreen.storyboard */,
 				7FD38A20237CF07F007EC177 /* Info.plist */,
@@ -126,6 +139,14 @@
 				7FD38A36237CF07F007EC177 /* Info.plist */,
 			);
 			path = UFOGameUITests;
+			sourceTree = "<group>";
+		};
+		7FD38A44237D1DA6007EC177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38A45237D1DA7007EC177 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +255,9 @@
 			files = (
 				7FD38A1F237CF07F007EC177 /* LaunchScreen.storyboard in Resources */,
 				7FD38A1C237CF07F007EC177 /* Assets.xcassets in Resources */,
+				7FD1E1082386166200531F75 /* small_explosion1.mp3 in Resources */,
 				7FD38A1A237CF07D007EC177 /* Main.storyboard in Resources */,
+				7FD38A43237D1D21007EC177 /* BGM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7FF29A23A202FB0092FB49 /* SecondViewController.swift in Sources */,
 				7FD38A17237CF07D007EC177 /* ViewController.swift in Sources */,
 				7FD38A13237CF07D007EC177 /* AppDelegate.swift in Sources */,
 				7FD38A15237CF07D007EC177 /* SceneDelegate.swift in Sources */,
@@ -437,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYAVWT67J5;
 				INFOPLIST_FILE = UFOGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYAVWT67J5;
 				INFOPLIST_FILE = UFOGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,9 +498,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CYAVWT67J5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UFOGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,9 +520,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CYAVWT67J5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UFOGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,6 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYAVWT67J5;
 				INFOPLIST_FILE = UFOGameUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CYAVWT67J5;
 				INFOPLIST_FILE = UFOGameUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
